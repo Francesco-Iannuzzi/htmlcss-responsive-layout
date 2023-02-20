@@ -11,6 +11,11 @@ img
     max-width: 100%;
 }
 
+li
+{
+    list-style: none;
+}
+
 :root
 {
     --rl-primary: #9792e4;
@@ -76,11 +81,6 @@ section
 
 /* #region debug */
 
-.debug #site_header
-{
-    height: 50px;
-}
-
 .debug [class^="col_"]
 {
     height: 400px;
@@ -126,6 +126,17 @@ section
 #site_header
 {
     background-color: var(--rl-icon);
+    padding: 1rem;
+}
+
+#site_header .menu
+{
+    justify-content: space-between;
+}
+
+#site_header .navigation a
+{
+    color: var(--rl-light);
 }
 
 /* #endregion Header */
