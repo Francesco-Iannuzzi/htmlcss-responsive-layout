@@ -239,7 +239,6 @@ section
 
 .strategic h1
 {
-    font-size: 3rem;
     margin-top: 3rem;
 }
 
@@ -324,6 +323,12 @@ section.call
         margin: 0;
         padding: 0;
     }
+
+    .strategic h1
+    {
+        font-size: 3rem;
+    }
+
 }
 
 @media screen and (min-width: 1200px)
@@ -358,6 +363,18 @@ section.call
     {
         display: flex;
     }
+
+    .strategic h1
+    {
+        margin-top: 5rem;
+    }
+
+    .strategic .card
+    {
+        max-width: 60%;
+        align-items: flex-end;
+    }
+
 }
 
 /* #endregion responsive */
