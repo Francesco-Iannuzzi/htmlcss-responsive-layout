@@ -132,6 +132,15 @@ section
 
 /* #region Main */
 
+/* #region testimonials */
+
+.testimonials
+{
+    margin: 0 -1rem;
+}
+
+/* #endregion testimonials */
+
 /* #region call */
 
 section.call
