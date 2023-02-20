@@ -9,6 +9,7 @@
 body
 {
     font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root
@@ -87,7 +88,8 @@ section
 .col_12
 {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0.5rem;
 }
 
 .card
@@ -111,11 +113,11 @@ section
     border: 1px solid red;
 }
 
-.debug .strategic [class^="col_"]
+/* .debug .strategic [class^="col_"]
 {
     height: 400px;
     background-color: yellow;
-}
+} */
 
 .debug .benefits [class^="col_"]
 {
@@ -134,7 +136,7 @@ section
     background-color: blue;
     margin: 0.5rem 0;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .debug .partner
@@ -144,7 +146,7 @@ section
     background-color: yellow;
     margin: 0.5rem 0;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .debug .prova
@@ -190,6 +192,7 @@ section
     background-color: var(--rl-secondary);
     padding: 2rem;
 }
+
 .demo .application
 {
     text-align: start;
@@ -225,6 +228,42 @@ section
 }
 
 /* #endregion demo */
+
+/* #region strategic */
+
+.strategic
+{
+    color: var(--rl-light);
+    padding: 3rem 0;
+}
+
+.strategic h1
+{
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.strategic .card
+{
+    background-color: var(--rl-light);
+    color: var(--rl-dark);
+    text-align: center;
+    padding: 3rem;
+}
+
+.strategic p
+{
+    margin: 2rem 0;
+}
+
+.scroll i
+{
+    background-color: var(--rl-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+}
+
+/* #endregion strategic */
 
 /* #region testimonials */
 
@@ -279,11 +318,12 @@ section.call
         width: calc(100% / 12 * 8);
     }
 
-    .demo [class^="col_"]
+    .card_demo
     {
-        align-self: stretch;
+        height: 100%;
+        margin: 0;
+        padding: 0;
     }
-    
 }
 
 @media screen and (min-width: 1200px)
@@ -309,6 +349,12 @@ section.call
     }
 
     .demo .application
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .strategic .row
     {
         display: flex;
     }
