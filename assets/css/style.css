@@ -62,15 +62,13 @@ section
 
 .container
 {
-    width: 80%;
-    max-width: 1100px;
+    width: 90%;
     margin: auto;
 }
 
 .sm_container
 {
-    width: 60%;
-    max-width: 500px;
+    width: 70%;
     margin: auto;
 }
 
@@ -95,6 +93,7 @@ section
 .card
 {
     border-radius: 2rem;
+    margin: 0.5rem;
 }
 
 .btn
@@ -115,6 +114,7 @@ section
 .debug .strategic [class^="col_"]
 {
     height: 400px;
+    background-color: yellow;
 }
 
 .debug .benefits [class^="col_"]
@@ -184,6 +184,12 @@ section
 
 /* #region demo */
 
+.demo .card_demo
+{
+    text-align: center;
+    background-color: var(--rl-secondary);
+    padding: 2rem;
+}
 .demo .application
 {
     text-align: start;
@@ -194,14 +200,6 @@ section
 {
     background-color: var(--rl-icon);
     color: var(--rl-light);
-}
-
-.demo .card_demo
-{
-    text-align: center;
-    background-color: var(--rl-secondary);
-    margin: 2rem 0;
-    padding: 2rem;
 }
 
 .demo .card_demo i
@@ -217,7 +215,7 @@ section
 
 .demo .card_demo p
 {
-    margin: 3rem 0;
+    margin: 2rem 0;
     color: var(--rl-dark);
 }
 
@@ -229,11 +227,6 @@ section
 /* #endregion demo */
 
 /* #region testimonials */
-
-.testimonials
-{
-    margin: 0 -1rem;
-}
 
 /* #endregion testimonials */
 
@@ -285,6 +278,11 @@ section.call
     {
         width: calc(100% / 12 * 8);
     }
+
+    .demo [class^="col_"]
+    {
+        align-self: stretch;
+    }
     
 }
 
@@ -308,6 +306,11 @@ section.call
     .col_lg_8
     {
         width: calc(100% / 12 * 8);
+    }
+
+    .demo .application
+    {
+        display: flex;
     }
 }
 
