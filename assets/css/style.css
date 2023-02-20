@@ -1,0 +1,42 @@
+/* #region common */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+:root
+{
+    --rl-primary: #9792e4;
+    --rl-secondary: #b5ddff;
+    --rl-light: #ffffff;
+    --rl-dark: #333333;
+    --rl-icon: #0084fd;
+    --rl-free: #fdc15f;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+/* #endregion utilities */
+
+/* #region debug */
+/* #endregion debug */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
+
+/* #region responsive */
+/* #endregion responsive */
