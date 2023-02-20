@@ -6,14 +6,9 @@
     box-sizing: border-box;
 }
 
-img
+body
 {
-    max-width: 100%;
-}
-
-li
-{
-    list-style: none;
+    font-family: 'PT Sans', sans-serif;
 }
 
 :root
@@ -26,6 +21,26 @@ li
     --rl-free: #fdc15f;
 }
 
+img
+{
+    max-width: 100%;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+[class^="col_"]
+{
+    margin: 0.5rem 0;
+}
+
 /* #endregion common */
 
 /* #region utilities */
@@ -35,16 +50,26 @@ section
     margin: 3rem 0;
 }
 
+.odd
+{
+    background-color: var(--rl-light);
+}
+
+.even
+{
+    background-color: var(--rl-primary);
+}
+
 .container
 {
-    width: 90%;
+    width: 80%;
     max-width: 1100px;
     margin: auto;
 }
 
 .sm_container
 {
-    width: 70%;
+    width: 60%;
     max-width: 500px;
     margin: auto;
 }
@@ -67,14 +92,15 @@ section
     margin: auto;
 }
 
-.odd
+.card
 {
-    background-color: var(--rl-light);
+    border-radius: 2rem;
 }
 
-.even
+.btn
 {
-    background-color: var(--rl-primary);
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
 }
 
 /* #endregion utilities */
@@ -83,9 +109,22 @@ section
 
 .debug [class^="col_"]
 {
-    height: 400px;
     border: 1px solid red;
-    margin: 0.5rem 0;
+}
+
+.debug .strategic [class^="col_"]
+{
+    height: 400px;
+}
+
+.debug .benefits [class^="col_"]
+{
+    height: 400px;
+}
+
+.debug .about [class^="col_"]
+{
+    height: 400px;
 }
 
 .debug .heading_testimonials
@@ -142,6 +181,52 @@ section
 /* #endregion Header */
 
 /* #region Main */
+
+/* #region demo */
+
+.demo .application
+{
+    text-align: start;
+    padding: 2rem 2rem 0;
+}
+
+.application .text_demo > .btn
+{
+    background-color: var(--rl-icon);
+    color: var(--rl-light);
+}
+
+.demo .card_demo
+{
+    text-align: center;
+    background-color: var(--rl-secondary);
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+.demo .card_demo i
+{
+    color: var(--rl-icon);
+    margin-bottom: 1rem;
+}
+
+.demo .card_demo h2
+{
+    color: var(--rl-icon);
+}
+
+.demo .card_demo p
+{
+    margin: 3rem 0;
+    color: var(--rl-dark);
+}
+
+.demo .card_demo .img_demo
+{
+    margin-top: 2rem;
+}
+
+/* #endregion demo */
 
 /* #region testimonials */
 
