@@ -212,6 +212,11 @@ p
     padding-bottom: 0;
 }
 
+.img_demo img
+{
+    margin-bottom: -5px;
+}
+
 .demo .card_demo a > i
 {
     color: var(--rl-light);
@@ -274,10 +279,11 @@ p
     color: var(--rl-dark);
     padding: 1rem;
     border-radius: 50%;
-    aspect-ratio: 1rem / 1rem;
     line-height: 1rem;
+    aspect-ratio: 1rem / 1rem;
     vertical-align: middle;
 }
+
 
 /* #endregion strategic */
 
