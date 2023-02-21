@@ -402,6 +402,12 @@ section.call
     padding: 2rem 0;
 }
 
+#site_footer .sm_container
+{
+    flex-direction: column;
+    gap: 2rem;
+}
+
 #site_footer a
 {
     text-decoration: underline;
