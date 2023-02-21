@@ -588,6 +588,11 @@ section.call
         width: 50%;
     }
 
+    .img_demo
+    {
+        align-self: flex-end;
+    }
+
     .strategic .row
     {
         flex-wrap: wrap;
