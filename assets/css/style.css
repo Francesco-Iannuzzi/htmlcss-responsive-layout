@@ -64,12 +64,14 @@ section
 .container
 {
     width: 90%;
+    max-width: 1200px;
     margin: auto;
 }
 
 .sm_container
 {
     width: 70%;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -110,14 +112,8 @@ section
 
 .debug [class^="col_"]
 {
-    border: 1px solid red;
+    border: 1px dashed red;
 }
-
-/* .debug .strategic [class^="col_"]
-{
-    height: 400px;
-    background-color: yellow;
-} */
 
 .debug .benefits [class^="col_"]
 {
@@ -132,7 +128,7 @@ section
 .debug .heading_testimonials
 {
     height: 400px;
-    border: 1px solid red;
+    border: 1px dashed red;
     background-color: blue;
     margin: 0.5rem 0;
     width: 100%;
@@ -142,7 +138,7 @@ section
 .debug .partner
 {
     height: 400px;
-    border: 1px solid red;
+    border: 1px dashed red;
     background-color: yellow;
     margin: 0.5rem 0;
     width: 100%;
@@ -196,7 +192,7 @@ section
 .demo .application
 {
     text-align: start;
-    padding: 2rem 2rem 0;
+    padding-bottom: 0;
 }
 
 .application .text_demo > .btn
@@ -361,7 +357,7 @@ section.call
 
     .strategic .row
     {
-        display: flex;
+        flex-wrap: wrap;
     }
 
     .strategic h1
@@ -371,8 +367,7 @@ section.call
 
     .strategic .card
     {
-        max-width: 60%;
-        align-items: flex-end;
+        max-width: 80%;
     }
 
 }
