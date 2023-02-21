@@ -575,7 +575,12 @@ section.call
     .demo .application
     {
         display: flex;
-        flex-direction: row;
+    }
+
+    .text_demo,
+    .img_demo
+    {
+        width: 50%;
     }
 
     .strategic .row
