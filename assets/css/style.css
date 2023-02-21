@@ -453,7 +453,12 @@ section.call
 #site_footer .sm_container
 {
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
+}
+
+#site_footer p
+{
+    font-size: 0.75rem;
 }
 
 #site_footer a
