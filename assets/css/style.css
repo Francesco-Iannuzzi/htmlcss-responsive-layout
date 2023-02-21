@@ -101,7 +101,7 @@ section
 
 .card
 {
-    border-radius: 4rem;
+    border-radius: 3rem;
     margin: 0.5rem;
 }
 
@@ -180,6 +180,11 @@ section
     text-align: center;
     background-color: var(--rl-secondary);
     padding: 3rem 2rem;
+}
+
+.demo .card_demo a > i
+{
+    color: var(--rl-light);
 }
 
 .demo .card_demo i
@@ -281,6 +286,41 @@ section
 }
 
 /* #endregion testimonials */
+
+/* #region benefits */
+
+.benefits .container > h2
+{
+    text-align: center;
+    color: var(--rl-light);
+    padding: 2rem 0;
+}
+
+.benefits .card
+{
+    background-color: var(--rl-light);
+    padding: 3rem 2rem;
+}
+
+.benefits .card h2,
+.benefits .card h3
+{
+    color: var(--rl-primary);
+    margin-bottom: 2rem;
+}
+
+.benefits .card p
+{
+    margin-bottom: 2rem;
+}
+
+.benefits .card a
+{
+    background-color: var(--rl-primary);
+    color: var(--rl-light);
+}
+
+/* #endregion benefits */
 
 /* #region call */
 
