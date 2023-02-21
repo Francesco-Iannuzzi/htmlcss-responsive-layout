@@ -123,17 +123,42 @@ section
 #site_header
 {
     background-color: var(--rl-icon);
-    padding: 1rem;
+    color: var(--rl-light);
+    line-height: 1rem;
 }
 
 #site_header .menu
 {
     justify-content: space-between;
+    line-height: 4rem;
 }
 
-#site_header .navigation a
+.logo img
+{
+    vertical-align: middle;
+}
+
+.navigation_desk
+{
+    display: none;
+}
+
+.navigation_desk .d-flex
+{
+    gap: 1rem;
+}
+
+.navigation_desk li:last-child > a
+{
+    background-color: var(--rl-light);
+    color: var(--rl-dark);
+    padding: 0.5rem 1rem;
+}
+
+#site_header .navigation_mt i
 {
     color: var(--rl-light);
+    vertical-align: middle;
 }
 
 /* #endregion Header */
@@ -493,6 +518,16 @@ section.call
     .col_lg_8
     {
         width: calc(100% / 12 * 8);
+    }
+
+    #site_header .navigation_desk
+    {
+        display: block;
+    }
+
+    #site_header .navigation_mt
+    {
+        display: none;
     }
 
     .demo .application
