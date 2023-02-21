@@ -348,6 +348,16 @@ section.call
         display: flex;
     }
 
+    .partner img
+    {
+        margin-bottom: 0;
+    }
+
+    .partner .cit
+    {
+        align-self: center;
+    }
+
 }
 
 @media screen and (min-width: 1200px)
