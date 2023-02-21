@@ -161,11 +161,6 @@ section
 {
     padding: 3rem 0;
 }
-.demo .application
-{
-    text-align: start;
-    padding-bottom: 0;
-}
 
 .application .text_demo > .btn
 {
@@ -178,6 +173,12 @@ section
     text-align: center;
     background-color: var(--rl-secondary);
     padding: 3rem 2rem;
+}
+
+.demo .application
+{
+    text-align: start;
+    padding-bottom: 0;
 }
 
 .demo .card_demo a > i
