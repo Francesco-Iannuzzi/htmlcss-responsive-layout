@@ -150,6 +150,11 @@ section
     background-color: var(--rl-icon);
     color: var(--rl-light);
     line-height: 1rem;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 2px 2px 20px 0px var(--rl-dark);
 }
 
 #site_header .menu
