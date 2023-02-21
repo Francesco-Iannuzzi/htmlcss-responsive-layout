@@ -47,6 +47,31 @@ p
     margin: 0.5rem 0;
 }
 
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+h3
+{
+    font-size: 1.75rem;
+}
+
+p
+{
+    font-size: 1.25rem;
+}
+
+.btn > i
+{
+    margin-right: 0.5rem;
+}
+
 /* #endregion common */
 
 /* #region utilities */
@@ -205,6 +230,7 @@ section
 .demo .card_demo h3
 {
     color: var(--rl-icon);
+    margin-top: 1rem;
 }
 
 .demo .card_demo p
@@ -279,7 +305,8 @@ section
 
 .avatar img
 {
-    max-width: 80%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
     margin-bottom: 2rem;
 }
@@ -494,6 +521,19 @@ section.call
     .partner .cit
     {
         align-self: center;
+        margin-left: 2rem;
+    }
+
+    .avatar_about img
+    {
+        max-width: 100%;
+    }
+
+    .avatar_about > i
+    {
+        position: absolute;
+        top: 0;
+        left: 70%;
     }
 
 }
